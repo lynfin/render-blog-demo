@@ -6,8 +6,8 @@
                     turbo_method: :delete,
                     turbo_confirm: "Are you sure?"
                   } %></li>
-  <li><%= link_to "Articles", articles_path %></li>
 </ul>
+<%= link_to "Return to All Articles", articles_path %>
 <h2>Comments</h2>
 <%= render @article.comments %>
 <h2>Add a comment:</h2>
